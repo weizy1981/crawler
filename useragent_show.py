@@ -1,0 +1,10 @@
+from fake_useragent import UserAgent
+ua = UserAgent(verify_ssl=False)
+print(ua.ie)
+print(ua.opera)
+print(ua.chrome)
+print(ua.firefox)
+print(ua.safari)
+print(ua.random)
+print(ua.random)
+print(ua.random)
